@@ -19,3 +19,14 @@ It is hard to detect when exponential growth slows to just non-exponential growt
 You can see how Manhattan has broken the exponential surge of growth that started around November 2020.
 
 Note: The code does this for case rate, hospitalisation rate, and death rate. 
+
+### A Tale of Two Cities
+A finally got around to playing with *BeautifulSoup* to scrape (and clean) data from Sweden's [c19.se](https://c19.se/en/Sweden/Stockholm) site so that I could do some comparitive analysis. NYC cases got a lot of coverage in the news--even though NYC leaned in very hard with restrictions, testing, vaccines, etc. Stockholm got less coverage (as it was far away), even though their approach to COVID was "[unique](https://time.com/5899432/sweden-coronovirus-disaster/)" in terms of policy. 
+
+As a person who not only _lived_ in both cities but also did _intra-city moves_ in both cities during COVID, I lived through both experiences. I had a feeling that one city was more "dangerous" than another (contrary to press coverage and rumour). As such I rand the numbers. Here is a normalised comparison:
+
+![A Tale of Two Cities](https://github.com/JimHaughwout/my_corona/blob/main/A-Tale-Of-Two-Cities.png)
+
+😲 It goes to show that we should trust in data. You can find the source code for this work as two additional notebooks in this repo.
+
+> PS I was still in Sthlm in October. At that point I started to isolate to protect myself. I moved to NYC in November, only catching part of the Q4 2021 COVID wave.
