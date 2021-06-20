@@ -34,6 +34,11 @@ As a person who not only _lived_ in both cities but also did _intra-city moves_ 
 ### Mapping Recovery
 After NYC re-opened, several people asked me what I was seeing. I added a new notebook that lets one view an interactive heat map (folium choropleth) by zipcode (`MODZCTA`). You can build interactive maps by the count of new cases and rate (per 100K people) of new cases, total cases, and total deaths. Sadly it looks like Hell's Kitchen/Time Square is now the worst place for new cases (per 100K people) after months of being a very safe place ☹️
 
-Here is a screen shot of the latest case rate heat map:
+Here is an example, latest case rate heat map at city level:
 
 ![Choropleth Heat Map by New Case Rate per 100K](https://github.com/JimHaughwout/my_corona/blob/main/choropleth-by-new_case-rate.png)
+
+
+Here is an another, zoomed in around the Hell's Kitchen area:
+
+![Choropleth Zoom of Hell's Kitchen Area](https://github.com/JimHaughwout/my_corona/blob/main/hells-kitchen-choropleth-zoom.png)
