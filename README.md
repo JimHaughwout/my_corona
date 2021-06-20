@@ -30,3 +30,10 @@ As a person who not only _lived_ in both cities but also did _intra-city moves_ 
 😲 It goes to show that we should trust in data. You can find the source code for this work as two additional notebooks in this repo.
 
 > PS I was still in Sthlm in October. At that point I started to isolate to protect myself. I moved to NYC in November, only catching part of the Q4 2021 COVID wave.
+
+### Mapping Recovery
+After NYC re-opened, several people asked me what I was seeing. I added a new notebook that lets one view an interactive heat map (folium choropleth) by zipcode (`MODZCTA`). You can build interactive maps by the count of new cases and rate (per 100K people) of new cases, total cases, and total deaths. Sadly it looks like Hell's Kitchen/Time Square is now the worst place for new cases (per 100K people) after months of being a very safe place ☹️
+
+Here is a screen shot of the latest case rate heat map:
+
+![Choropleth Heat Map by New Case Rate per 100K](https://github.com/JimHaughwout/my_corona/blob/main/choropleth-by-new_case-rate.png)
